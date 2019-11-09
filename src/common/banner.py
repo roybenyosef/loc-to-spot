@@ -2,5 +2,5 @@ from pyfiglet import Figlet
 
 
 def print_banner():
-    f = Figlet('slant')
-    print(f.renderText('Location to Spotify!'))
+    f = Figlet('larry3d', 'auto', 'auto', 160)
+    print(f.renderText('Local music to Spotify!'))
